@@ -1,0 +1,38 @@
+.wrapper {
+  height: 46px;
+
+  .nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .item-nav {
+      padding: 8px 12px;
+      i {
+        color: black;
+      }
+      &:hover {
+        color: rgb(0, 157, 255);
+        cursor: pointer;
+        border-bottom: 4px solid rgb(0, 157, 255);
+        margin-bottom: -2px;
+      }
+    }
+    .item-nav:last-child {
+      min-width: 40px;
+      padding: 4px;
+      &:hover {
+        border-bottom: none;
+        margin-bottom: none;
+      }
+    }
+  }
+}
+
+.focus {
+  padding: 8px 12px;
+  color: rgb(0, 157, 255);
+  cursor: pointer;
+  border-bottom: 4px solid rgb(0, 157, 255);
+  margin-bottom: -2px;
+}

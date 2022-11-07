@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+  // position: relative;
+  position: fixed;
+  //top: 0;
+  width: 100%;
+  // border-bottom: 1px solid rgba($color: #000000, $alpha: 0.5);
+  box-shadow: 1px 1px 2px rgba($color: #000000, $alpha: 0.05),
+    0 0 5px rgba($color: #000000, $alpha: 0.5),
+    0 0 2px rgba($color: #000000, $alpha: 0.2);
+  .action {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    .item {
+      padding: 0 8px;
+      font-size: 2rem;
+      &:hover {
+        color: rgb(0, 157, 255);
+        cursor: pointer;
+      }
+    }
+
+    .searchInput {
+      position: absolute;
+      right: 240px;
+      background-color: #444444;
+      border: none;
+      border-radius: 4px;
+      height: 40px;
+      top: 4px;
+      outline: none;
+      color: white;
+      width: 200px;
+      padding: 4px 8px;
+    }
+  }
+}

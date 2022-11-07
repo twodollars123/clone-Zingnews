@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+
+  .popper {
+    position: absolute;
+    padding: 40px 300px;
+    top: calc(46px);
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    min-height: 680px;
+    display: block;
+    background-color: #141329;
+    color: white;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
